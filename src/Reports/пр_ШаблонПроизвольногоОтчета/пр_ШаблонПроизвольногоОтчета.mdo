@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf7c39d-71cf-4928-a424-b3e428ae9180">
+  <producedTypes>
+    <objectType typeId="da5fe691-73a1-45d5-bb6f-5017dad7c28b" valueTypeId="241f937b-f35a-4bad-b060-f71a710ace5d"/>
+    <managerType typeId="ef10a431-cad7-449f-9b24-8a88272a076a" valueTypeId="7bc29de7-46f3-4f42-9e66-f24cc25af8ea"/>
+  </producedTypes>
+  <name>пр_ШаблонПроизвольногоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон произвольного отчета (ПР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.пр_ШаблонПроизвольногоОтчета.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пр_ШаблонПроизвольногоОтчета.Template.МакетВнешнСоединение</mainDataCompositionSchema>
+  <forms uuid="52e0afb3-f240-4a22-a326-50975d2b6a96">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fb884a67-1c80-4c61-acb0-2fbce03a20be">
+    <name>МакетВнешнСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет внешн соединение</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2e958206-7d88-4ed5-a738-f85712f255f3">
+    <name>МакетОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отбор</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
