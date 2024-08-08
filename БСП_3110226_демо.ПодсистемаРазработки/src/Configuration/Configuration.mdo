@@ -30,7 +30,6 @@
   <defaultRoles>Role.пр_Администратор</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="cd20711f-c907-4e0a-bafe-e1f4e477c1d6" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
